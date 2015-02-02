@@ -1,0 +1,26 @@
+{
+  "name": "HelloGrunt",
+  "title": "Hellogrunt",
+  "description": "The best jQuery plugin ever.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/styxgi/Sandboxes.NodeJS",
+  "author": {
+    "name": "styxgi",
+    "email": "styx.eu@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/styxgi/Sandboxes.NodeJS.git"
+  },
+  "bugs": "https://github.com/styxgi/Sandboxes.NodeJS/issues",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/styxgi/Sandboxes.NodeJS/blob/master/LICENSE-MIT"
+    }
+  ],
+  "dependencies": {
+    "jquery": "*"
+  },
+  "keywords": []
+}
