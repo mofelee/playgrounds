@@ -1,0 +1,35 @@
+<div class="row">
+  <div class="col-xs-3">
+    <input class="form-control" type="text" placeholder="Search a state or lga" ng-model="search">
+    <p data-ng-show="search">Searching for {{search}}..</p>
+  </div>
+</div>
+<hr>
+<div class="row">
+  <div class="col-xs-6">
+    <h4>States</h4>
+    <ul class="states">
+      <li ng-repeat="state in states | orderBy:'name':false | filter:search">
+        <a href="#/map/state/{{state.code}}">{{state.code}} - {{state.name}}</a>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <pre>{{ states | filter:search | json }}</pre>
+      </li>
+    </ul>
+  </div>
+  <div class="col-xs-6">
+    <h4>LGAs</h4>
+    <ul class="lgas">
+      <li ng-repeat="lga in lgas | orderBy:'stateCode':false | filter:search">
+        <a href="#/map/lga/{{lga.code}}">{{lga.code}} - {{lga.name}}</a> (<a href="#/map/state/{{lga.stateCode}}">{{lga.stateCode}}</a>)
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <pre>{{ lgas | filter:search | json }}</pre>
+      </li>
+    </ul>
+  </div>
+</div>

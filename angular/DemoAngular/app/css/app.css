@@ -1,0 +1,17 @@
+/* app css stylesheet */
+
+body {
+    padding-top: 60px;
+}
+#container {
+    padding: 39px 0px;
+}
+.states,
+.lgas {
+  list-style: none;
+}
+
+.states li,
+.lgas li {
+  padding-top: 10px;
+}

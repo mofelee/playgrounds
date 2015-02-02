@@ -1,0 +1,13 @@
+<div class="row">
+	<div class="col-xs-12">
+		<p>Show map for:</p>
+		<pre>{{ element | json }}</pre>
+	</div>
+</div>
+<div ng-show="data">
+    <p>Found data in JSON:</p>
+	<pre>{{ data | json }}</pre>
+</div>
+<div ng-hide="data">
+    <p>No data found in JSON</p>
+</div>

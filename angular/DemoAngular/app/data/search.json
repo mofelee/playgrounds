@@ -1,0 +1,471 @@
+[{
+    "countryName": "Nigeria"
+}, {
+    "stateCode": "KN",
+    "stateName": "Kano (STATE)"
+}, {
+    "lgaCode": "419",
+    "lgaName": "Kankara (LGA)",
+    "stateCode": "KT",
+    "stateName": "Katsina"
+}, {
+    "lgaCode": "420",
+    "lgaName": "Kankia (LGA)",
+    "stateCode": "KT",
+    "stateName": "Katsina"
+}, {
+    "lgaCode": "20043",
+    "lgaName": "Kano Municipal (LGA)",
+    "stateCode": "KN",
+    "stateName": "Kano"
+}, {
+    "wardCode": "62202",
+    "wardName": "Alkanmu (WARD)",
+    "lgaCode": "622",
+    "lgaName": "Wurno",
+    "stateCode": "SO",
+    "stateName": "Sokoto"
+}, {
+    "wardCode": "61101",
+    "wardName": "Bankanu (WARD)",
+    "lgaCode": "611",
+    "lgaName": "Kware",
+    "stateCode": "SO",
+    "stateName": "Sokoto"
+}, {
+    "wardCode": "KN0104",
+    "wardName": "Dabin-Kanawa (WARD)",
+    "lgaCode": "20004",
+    "lgaName": "Ajingi",
+    "stateCode": "KN",
+    "stateName": "Kano"
+}, {
+    "wardCode": "11606",
+    "wardName": "Jakana (WARD)",
+    "lgaCode": "116",
+    "lgaName": "Konduga",
+    "stateCode": "BR",
+    "stateName": "Borno"
+}, {
+    "wardCode": "61509",
+    "wardName": "Jekanadu (WARD)",
+    "lgaCode": "615",
+    "lgaName": "Silame",
+    "stateCode": "SO",
+    "stateName": "Sokoto"
+}, {
+    "wardCode": "KN2105",
+    "wardName": "Kan Karofi (WARD)",
+    "lgaCode": "20043",
+    "lgaName": "Kano Municipal",
+    "stateCode": "KN",
+    "stateName": "Kano"
+}, {
+    "wardCode": "KN3605",
+    "wardName": "Kanawa (WARD)",
+    "lgaCode": "20011",
+    "lgaName": "Sumaila",
+    "stateCode": "KN",
+    "stateName": "Kano"
+}, {
+    "wardCode": "43406",
+    "wardName": "Kanda (WARD)",
+    "lgaCode": "434",
+    "lgaName": "Zango",
+    "stateCode": "KT",
+    "stateName": "Katsina"
+}, {
+    "wardCode": "40109",
+    "wardName": "Kandarawa (WARD)",
+    "lgaCode": "401",
+    "lgaName": "Bakori",
+    "stateCode": "KT",
+    "stateName": "Katsina"
+}, {
+    "wardCode": "41507",
+    "wardName": "Kandawa (WARD)",
+    "lgaCode": "415",
+    "lgaName": "Ingawa",
+    "stateCode": "KT",
+    "stateName": "Katsina"
+}, {
+    "wardCode": "JI0302",
+    "wardName": "Kangire (WARD)",
+    "lgaCode": "18022",
+    "lgaName": "Birnin Kudu",
+    "stateCode": "JI",
+    "stateName": "Jigawa"
+}, {
+    "wardCode": "50208",
+    "wardName": "Kangiwa (WARD)",
+    "lgaCode": "502",
+    "lgaName": "Arewa Dandi",
+    "stateCode": "KB",
+    "stateName": "Kebbi"
+}, {
+    "wardCode": "41905",
+    "wardName": "Kankara (WARD)",
+    "lgaCode": "419",
+    "lgaName": "Kankara",
+    "stateCode": "KT",
+    "stateName": "Katsina"
+}, {
+    "wardCode": "81006",
+    "wardName": "Kanoma (WARD)",
+    "lgaCode": "810",
+    "lgaName": "Maru",
+    "stateCode": "ZA",
+    "stateName": "Zamfara"
+}, {
+    "wardCode": "KN3003",
+    "wardName": "Kantama (WARD)",
+    "lgaCode": "20040",
+    "lgaName": "Minjibir",
+    "stateCode": "KN",
+    "stateName": "Kano"
+}, {
+    "wardCode": "JI1706",
+    "wardName": "Kanti (WARD)",
+    "lgaCode": "18010",
+    "lgaName": "Kazaure",
+    "stateCode": "JI",
+    "stateName": "Jigawa"
+}, {
+    "wardCode": "JI0303",
+    "wardName": "Kantoga (WARD)",
+    "lgaCode": "18022",
+    "lgaName": "Birnin Kudu",
+    "stateCode": "JI",
+    "stateName": "Jigawa"
+}, {
+    "wardCode": "KN0708",
+    "wardName": "Kantudu (WARD)",
+    "lgaCode": "20024",
+    "lgaName": "Dala",
+    "stateCode": "KN",
+    "stateName": "Kano"
+}, {
+    "wardCode": "71312",
+    "wardName": "Kanuri (WARD)",
+    "lgaCode": "713",
+    "lgaName": "Nguru",
+    "stateCode": "YO",
+    "stateName": "Yobe"
+}, {
+    "wardCode": "JI1411",
+    "wardName": "Kanwa (WARD)",
+    "lgaCode": "18026",
+    "lgaName": "Jahun",
+    "stateCode": "JI",
+    "stateName": "Jigawa"
+}, {
+    "wardCode": "KN2009",
+    "wardName": "Kanwa (WARD)",
+    "lgaCode": "20026",
+    "lgaName": "Kabo",
+    "stateCode": "KN",
+    "stateName": "Kano"
+}, {
+    "wardCode": "KN2806",
+    "wardName": "Kanwa (WARD)",
+    "lgaCode": "20036",
+    "lgaName": "Madobi",
+    "stateCode": "KN",
+    "stateName": "Kano"
+}, {
+    "wardCode": "JI0806",
+    "wardName": "Kanya (WARD)",
+    "lgaCode": "18024",
+    "lgaName": "Garki",
+    "stateCode": "JI",
+    "stateName": "Jigawa"
+}, {
+    "wardCode": "51906",
+    "wardName": "Kyabu Kandu (WARD)",
+    "lgaCode": "519",
+    "lgaName": "Wasagu-Danko",
+    "stateCode": "KB",
+    "stateName": "Kebbi"
+}, {
+    "wardCode": "71102",
+    "wardName": "Maskandare (WARD)",
+    "lgaCode": "711",
+    "lgaName": "Machina",
+    "stateCode": "YO",
+    "stateName": "Yobe"
+}, {
+    "settlementName": "Abba Mai Kanti 1 (BUA)",
+    "settlementCode": "{6B5EA328-7072-45B5-8EC9-5D1BEA4F4252}",
+    "settlementType": "BUA",
+    "wardCode": "11305",
+    "wardName": "Mashamari",
+    "lgaCode": "113",
+    "lgaName": "Jere",
+    "stateCode": "BR",
+    "stateName": "Borno",
+    "isPrimaryName": 0
+}, {
+    "settlementName": "Abba Mai kanti 2 (BUA)",
+    "settlementCode": "{6B5EA328-7072-45B5-8EC9-5D1BEA4F4252}",
+    "settlementType": "BUA",
+    "wardCode": "11305",
+    "wardName": "Mashamari",
+    "lgaCode": "113",
+    "lgaName": "Jere",
+    "stateCode": "BR",
+    "stateName": "Borno",
+    "isPrimaryName": 0
+}, {
+    "settlementName": "Abbari Kanuri (SSA)",
+    "settlementCode": "{F046DC82-8A94-41F3-8BEE-F77B3855BCBD}",
+    "settlementType": "SSA",
+    "wardCode": "71504",
+    "wardName": "Jumbam",
+    "lgaCode": "715",
+    "lgaName": "Tarmua",
+    "stateCode": "YO",
+    "stateName": "Yobe",
+    "isPrimaryName": 1
+}, {
+    "settlementName": "Achilafiya Kantudu (BUA)",
+    "settlementCode": "{26858AFD-BCAD-491A-B3C9-ED00F9AD4445}",
+    "settlementType": "BUA",
+    "wardCode": "JI2701",
+    "wardName": "Achilafiya",
+    "lgaCode": "18019",
+    "lgaName": "Yankwashi",
+    "stateCode": "JI",
+    "stateName": "Jigawa",
+    "isPrimaryName": 0
+}, {
+    "settlementName": "Adakanta (SSA)",
+    "settlementCode": "{8C0EF35D-21DA-4964-893E-C970F65053AA}",
+    "settlementType": "SSA",
+    "wardCode": "62211",
+    "wardName": "Tunga",
+    "lgaCode": "622",
+    "lgaName": "Wurno",
+    "stateCode": "SO",
+    "stateName": "Sokoto",
+    "isPrimaryName": 1
+}, {
+    "settlementName": "Agalawa Kanawa Layin Musa (SSA)",
+    "settlementCode": "{A1F92491-4B81-4220-882D-7799263B7D65}",
+    "settlementType": "SSA",
+    "wardCode": "KN1309",
+    "wardName": "Yumbu",
+    "lgaCode": "20016",
+    "lgaName": "Gabasawa",
+    "stateCode": "KN",
+    "stateName": "Kano",
+    "isPrimaryName": 1
+}, {
+    "settlementName": "Aguwar Ari Maikanwa B (BUA)",
+    "settlementCode": "{A5667BB3-4E01-429F-8566-4F9892CCC95E}",
+    "settlementType": "BUA",
+    "wardCode": "70901",
+    "wardName": "Buduwa",
+    "lgaCode": "709",
+    "lgaName": "Jakusko",
+    "stateCode": "YO",
+    "stateName": "Yobe",
+    "isPrimaryName": 0
+}, {
+    "settlementName": "Agwada Kokani A (BUA)",
+    "settlementCode": "{B37A0A78-7B1A-4E4E-BFAF-FCD96FEC8DF3}",
+    "settlementType": "BUA",
+    "wardCode": "51105",
+    "wardName": "Jandutsi Birnin Malam",
+    "lgaCode": "511",
+    "lgaName": "Jega",
+    "stateCode": "KB",
+    "stateName": "Kebbi",
+    "isPrimaryName": 0
+}, {
+    "settlementName": "Agwada Kokani B (BUA)",
+    "settlementCode": "{B37A0A78-7B1A-4E4E-BFAF-FCD96FEC8DF3}",
+    "settlementType": "BUA",
+    "wardCode": "51105",
+    "wardName": "Jandutsi Birnin Malam",
+    "lgaCode": "511",
+    "lgaName": "Jega",
+    "stateCode": "KB",
+    "stateName": "Kebbi",
+    "isPrimaryName": 0
+}, {
+    "settlementName": "Ahmadu Bakanoma (HA)",
+    "settlementCode": "{79D65DF4-33B7-437D-8C4F-9E4C191CCBEB}",
+    "settlementType": "HA",
+    "wardCode": "KD0303",
+    "wardName": "Gangara",
+    "lgaCode": "19003",
+    "lgaName": "Giwa",
+    "stateCode": "KD",
+    "stateName": "Kaduna",
+    "isPrimaryName": 0
+}, {
+    "settlementName": "Akansa (HA)",
+    "settlementCode": "{48C6A544-CB9F-4F0C-9F46-8302E034E1AD}",
+    "settlementType": "HA",
+    "wardCode": "KD1409",
+    "wardName": "Kwassam",
+    "lgaCode": "19014",
+    "lgaName": "Kauru",
+    "stateCode": "KD",
+    "stateName": "Kaduna",
+    "isPrimaryName": 1
+}, {
+    "settlementName": "Akansa (SSA)",
+    "settlementCode": "{1738E130-094E-4EA0-BCE4-FE8FDCA68A48}",
+    "settlementType": "SSA",
+    "wardCode": "KD1409",
+    "wardName": "Kwassam",
+    "lgaCode": "19014",
+    "lgaName": "Kauru",
+    "stateCode": "KD",
+    "stateName": "Kaduna",
+    "isPrimaryName": 1
+}, {
+    "settlementName": "Akanzan (HA)",
+    "settlementCode": "{DC4EEADA-C076-44AF-8DFE-E408DADF28BE}",
+    "settlementType": "HA",
+    "wardCode": "KD2207",
+    "wardName": "Unguwan Rimi",
+    "lgaCode": "19022",
+    "lgaName": "Zangon Kataf",
+    "stateCode": "KD",
+    "stateName": "Kaduna",
+    "isPrimaryName": 0
+}, {
+    "settlementName": "Akudun Kankare (SSA)",
+    "settlementCode": "{A292BE5E-173F-40A8-B014-645836CDE2D2}",
+    "settlementType": "SSA",
+    "wardCode": "KD1505",
+    "wardName": "Kareh",
+    "lgaCode": "19015",
+    "lgaName": "Kuban",
+    "stateCode": "KD",
+    "stateName": "Kaduna",
+    "isPrimaryName": 1
+}, {
+    "settlementName": "Al Kanchi (BUA)",
+    "settlementCode": "{4A406D67-D06F-401C-BB5D-8E6DAE0B14C0}",
+    "settlementType": "BUA",
+    "wardCode": "61603",
+    "wardName": "Sarkin Musulmi A",
+    "lgaCode": "616",
+    "lgaName": "Sokoto North",
+    "stateCode": "SO",
+    "stateName": "Sokoto",
+    "isPrimaryName": 0
+}, {
+    "settlementName": "Ala\u0027a Na Kano (SSA)",
+    "settlementCode": "{A2E889DA-DCDB-4C6C-BEC9-22BF3476C0DA}",
+    "settlementType": "SSA",
+    "wardCode": "JI1911",
+    "wardName": "Tsirma",
+    "lgaCode": "18025",
+    "lgaName": "Kiyawa",
+    "stateCode": "JI",
+    "stateName": "Jigawa",
+    "isPrimaryName": 0
+}, {
+    "settlementName": "Alangafe Kanuri (SSA)",
+    "settlementCode": "{0CD6FBD8-B3F5-49D8-B103-3D6258400AF3}",
+    "settlementType": "SSA",
+    "wardCode": "70503",
+    "wardName": "Daura A",
+    "lgaCode": "705",
+    "lgaName": "Fune",
+    "stateCode": "YO",
+    "stateName": "Yobe",
+    "isPrimaryName": 1
+}, {
+    "settlementName": "Alh Abdullahi Mai Kano (BUA)",
+    "settlementCode": "{203B78C3-9AB3-4C19-ADAF-67FEADB30E4A}",
+    "settlementType": "BUA",
+    "wardCode": "50208",
+    "wardName": "Kangiwa",
+    "lgaCode": "502",
+    "lgaName": "Arewa Dandi",
+    "stateCode": "KB",
+    "stateName": "Kebbi",
+    "isPrimaryName": 0
+}, {
+    "settlementName": "Alhaji Labaran Na Maikano (BUA)",
+    "settlementCode": "{1BC23C80-AC63-4829-ABC0-F0B0E6BF1527}",
+    "settlementType": "BUA",
+    "wardCode": "51106",
+    "wardName": "Jega Magaji \u0027B\u0027",
+    "lgaCode": "511",
+    "lgaName": "Jega",
+    "stateCode": "KB",
+    "stateName": "Kebbi",
+    "isPrimaryName": 0
+}, {
+    "settlementName": "Ali Kanguri (HA)",
+    "settlementCode": "{505D3168-A965-45D0-8C1C-83B696C28141}",
+    "settlementType": "HA",
+    "wardCode": "10910",
+    "wardName": "Dabira",
+    "lgaCode": "109",
+    "lgaName": "Gubio",
+    "stateCode": "BR",
+    "stateName": "Borno",
+    "isPrimaryName": 1
+}, {
+    "settlementName": "Aliya Kanwuri (BUA)",
+    "settlementCode": "{4AC83787-B596-47F8-951C-5BA36F93B829}",
+    "settlementType": "BUA",
+    "wardCode": "61904",
+    "wardName": "Magonho",
+    "lgaCode": "619",
+    "lgaName": "Tangaza",
+    "stateCode": "SO",
+    "stateName": "Sokoto",
+    "isPrimaryName": 0
+}, {
+    "settlementName": "Alkanci (BUA)",
+    "settlementCode": "{DA4F4366-AADA-4B0E-9D5B-7BCB0E70C922}",
+    "settlementType": "BUA",
+    "wardCode": "62210",
+    "wardName": "Marafa",
+    "lgaCode": "622",
+    "lgaName": "Wurno",
+    "stateCode": "SO",
+    "stateName": "Sokoto",
+    "isPrimaryName": 0
+}, {
+    "settlementName": "Alkandi (SSA)",
+    "settlementCode": "{BC689ABF-268B-452D-9799-98F0083EB409}",
+    "settlementType": "SSA",
+    "wardCode": "40506",
+    "wardName": "Giremawa",
+    "lgaCode": "405",
+    "lgaName": "Bindawa",
+    "stateCode": "KT",
+    "stateName": "Katsina",
+    "isPrimaryName": 1
+}, {
+    "settlementName": "Alkanmu (BUA)",
+    "settlementCode": "{FDEF7615-89A3-4CEE-9673-CA884686621E}",
+    "settlementType": "BUA",
+    "wardCode": "62202",
+    "wardName": "Alkanmu",
+    "lgaCode": "622",
+    "lgaName": "Wurno",
+    "stateCode": "SO",
+    "stateName": "Sokoto",
+    "isPrimaryName": 1
+}, {
+    "settlementName": "Alkantara (BUA)",
+    "settlementCode": "{7C38B5FE-CDF5-466E-B5A1-00FFBE8BD598}",
+    "settlementType": "BUA",
+    "wardCode": "KN2101",
+    "wardName": "Chedi",
+    "lgaCode": "20043",
+    "lgaName": "Kano Municipal",
+    "stateCode": "KN",
+    "stateName": "Kano",
+    "isPrimaryName": 0
+}]

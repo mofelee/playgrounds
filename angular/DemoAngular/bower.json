@@ -1,0 +1,16 @@
+{
+    "name": "DemoAngular",
+    "description": "A demo application for AngularJS",
+    "version": "0.0.0",
+    "homepage": "https://github.com/wmgh/Sandboxes.AngularJS/DemoAngular",
+    "license": "MIT",
+    "private": true,
+    "dependencies": {
+        "angular": "1.3.x",
+        "angular-mocks": "1.3.x",
+        "jquery": "1.10.2",
+        "bootstrap": "~3.1.1",
+        "angular-route": "1.3.x",
+        "angular-resource": "1.3.x"
+    }
+}

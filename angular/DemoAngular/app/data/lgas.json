@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Bauchi",
+        "code": "5002",
+        "stateCode": "BA"
+    }, 
+    {
+        "name": "Ajingi",
+        "code": "20004",
+        "stateCode": "KN"
+    }, 
+    {
+        "name": "Bebeji",
+        "code": "20025",
+        "stateCode": "KN"
+    }, 
+    {
+        "name": "Bindawa",
+        "code": "405",
+        "stateCode": "KT"
+    }
+]

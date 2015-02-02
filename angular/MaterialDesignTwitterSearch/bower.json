@@ -1,0 +1,20 @@
+{
+  "name": "MaterialDesignTwitterSearch",
+  "version": "0.0.0",
+  "homepage": "https://github.com/styxgi/Sandboxes.AngularJS",
+  "authors": [
+    "wmalgoire <wm@novel-t.ch>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-material": "~0.6.0",
+    "angular-socket-io": "~0.6.1"
+  }
+}
