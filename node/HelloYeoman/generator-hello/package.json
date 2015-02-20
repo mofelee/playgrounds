@@ -9,5 +9,8 @@
   "license": "ISC",
   "dependencies": {
     "yeoman-generator": "^0.18.9"
+  },
+  "devDependencies": {
+    "lodash": "^3.3.0"
   }
 }

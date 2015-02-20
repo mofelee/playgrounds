@@ -37,12 +37,36 @@ module.exports = MyBase.extend({
   configuring: {
     method1: function() {
       this.log('method 1 just ran');
+      this.log(this.templatePath());
     },
     method2: function() {
       this.log('method 2 just ran');
     }
   },
+  installingLodash: function() {
+    this.npmInstall(['lodash'], {
+      'saveDev': true
+    });
+  },
+  installingAngularLatest: function() {
+    this.bowerInstall(['angular-latest'], {
+      'save': true
+    });
+  },
+  install: {
+    ls: function() {
+      this.spawnCommand('ls', ['-lh']);
+    }
+  },
   writing: {
+    copyTemplate: function() {
+      this.fs.copyTpl(
+        this.templatePath('index.html'),
+        this.destinationPath('public/index.html'), {
+          title: 'Templating with Yeoman hello Generator'
+        }
+      );
+    },
     writeConfig: function() {
       this.config.save();
     }
