@@ -1,5 +1,5 @@
 {
-  "name": "mocha",
+  "name": "hello-mocha",
   "version": "1.0.0",
   "description": "http://build-podcast.com/mocha/",
   "main": "index.js",
@@ -8,6 +8,9 @@
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {},
+  "devDependencies": {
+    "chai": "^2.2.0",
+    "mocha": "^2.2.4"
+  },
   "dependencies": {}
 }
