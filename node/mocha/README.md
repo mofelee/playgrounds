@@ -11,7 +11,7 @@ http://build-podcast.com/mocha/
 	- describe()
 		- it()
 
-## Assertion libraries
+## assertion libraries
 - provide expect, assert, ... functions
 - chai
 	- see [indexSpecMochaChai.js]
@@ -20,3 +20,7 @@ http://build-podcast.com/mocha/
 	- expect(x).to.not.be.a('number')
 	- expect(x).to.contain('fo')
 	- ...
+
+## reporters
+- run `mocha --reporters` to see the list
+- run `mocha indexSpec*.js --reporter <>`

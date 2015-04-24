@@ -1,24 +1,24 @@
 var chai = require ('chai');
 var expect = require('chai').expect;
-var word = require('./index');
+var word = require('../index');
 
 describe('Sanitize', function() {
 
-	before(function() {
-		console.log('before');
-	})
+	// before(function() {
+	// 	console.log('before');
+	// })
 
-	beforeEach(function() {
-		console.log('before each');
-	})
+	// beforeEach(function() {
+	// 	console.log('before each');
+	// })
 	
-	after(function() {
-		console.log('after');
-	})
+	// after(function() {
+	// 	console.log('after');
+	// })
 
-	afterEach(function() {
-		console.log('after each');
-	})
+	// afterEach(function() {
+	// 	console.log('after each');
+	// })
 
 	it('returns lowercase of a string', function() {
 		var inputWord = 'hello world';
