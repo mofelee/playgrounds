@@ -39,15 +39,16 @@ describe('Sanitize', function() {
 
     expect(outputWord).to.equal('hello world');
   });
+});
 
-  describe('Github info', function() {
-    it('returns repo info from github', function() {
-      word.info(function(reply) {
-        expect(reply.language).to.equal('JavaScript');
-        expect(reply.watchers).to.equal(157);
-        console.log('RECEIVED');
-      });
-      console.log('HELLO');
+describe('Github info', function(done) {
+  it('returns repo info from github', function() {
+    word.info(function(reply) {
+      expect(reply.language).to.equal('JavaScript');
+      expect(reply.watchers).to.equal(0);
+      console.log('RECEIVED');
+      done();
     });
+    //console.log('HELLO');
   });
 });

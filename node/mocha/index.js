@@ -15,7 +15,7 @@ exports.info = function(callback) {
     path: '/repos/wmgh/playgrounds',
     method: 'GET',
     headers: {
-      'User-Agent': 'sayanee'
+      'User-Agent': 'wmgh'
     }
   };
   var str = '';
@@ -24,6 +24,7 @@ exports.info = function(callback) {
     .request(options, function(response) {
       response.on('data', function(data) {
         str += data;
+        console.log(data)
       });
 
       response.on('end', function() {
