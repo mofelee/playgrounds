@@ -24,7 +24,6 @@ exports.info = function(callback) {
     .request(options, function(response) {
       response.on('data', function(data) {
         str += data;
-        console.log(data)
       });
 
       response.on('end', function() {
@@ -38,3 +37,9 @@ exports.info = function(callback) {
     })
     .end();
 };
+
+exports.infoLang = function(infoFunc, callback) {
+  infoFunc(function(reply) {
+    callback('Language: ' + reply.language);
+  });
+}

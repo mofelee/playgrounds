@@ -1,8 +1,9 @@
-/* globals describe, it, require */
+/* globals describe, it, require, sinon */
 
 // var chai = require ('chai');
 var expect = require('chai').expect;
 var word = require('../index');
+var sinon = require('sinon');
 
 describe('Sanitize', function() {
 
@@ -41,8 +42,8 @@ describe('Sanitize', function() {
   });
 });
 
-describe('Github info', function(done) {
-  it('returns repo info from github', function() {
+describe('Github info', function() {
+  it('returns repo info from github', function(done) {
     word.info(function(reply) {
       expect(reply.language).to.equal('JavaScript');
       expect(reply.watchers).to.equal(0);
@@ -50,5 +51,21 @@ describe('Github info', function(done) {
       done();
     });
     //console.log('HELLO');
+  });
+});
+
+describe('Github infoLang', function() {
+  it.only('returns language information from github', function(done) {
+
+    var ghRepo = {
+      "language": "Assembly"
+    };
+    var stub = sinon.stub().callsArgWith(0, ghRepo);
+
+    word.infoLang(stub, function(reply) {
+      console.log(reply);
+      expect(reply).to.be.equal('Language: Assembly');
+      done();
+    });
   });
 });
