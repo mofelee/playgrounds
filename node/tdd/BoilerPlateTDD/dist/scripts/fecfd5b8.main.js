@@ -1,1 +1,0 @@
-"use strict";function helloWorld(){return"Hello world!"}$("#add_a,#add_b").on("keyup",function(){var a=$.trim($("#add_a").val()),b=$.trim($("#add_b").val());$("#add_c").val(Calculator.add(a,b))});
