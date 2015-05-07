@@ -1,0 +1,19 @@
+{
+  "name": "amd",
+  "version": "0.0.0",
+  "homepage": "https://github.com/wmgh/playgrounds",
+  "authors": [
+    "wmalgoire <wm@novel-t.ch>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "~2.1.17"
+  }
+}

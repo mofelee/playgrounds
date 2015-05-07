@@ -1,0 +1,26 @@
+{
+  "name": "hello-mocha",
+  "version": "1.0.0",
+  "description": "http://build-podcast.com/mocha/",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha && mocha test --require blanket --reporter html-cov > coverage.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "blanket": "^1.1.6",
+    "chai": "^2.2.0",
+    "mocha": "^2.2.4",
+    "sinon": "^1.14.1"
+  },
+  "dependencies": {},
+  "config": {
+    "blanket": {
+      "pattern": [
+        "index.js"
+      ],
+      "data-cover-never": "node_modules"
+    }
+  }
+}
