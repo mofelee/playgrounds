@@ -1,1 +1,0 @@
-browserify src/main.js -o build/bundle.js
