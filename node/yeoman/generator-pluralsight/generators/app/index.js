@@ -2,26 +2,29 @@
 
 var generators = require('yeoman-generator');
 var yosay = require('yosay');
+var chalk = require('chalk');
+var _ = require('lodash');
 
 module.exports = generators.Base.extend({
   constructor: function() {
     generators.Base.apply(this, arguments);
-    this.log('constructor');
+
+    // Adding command line argument
+    this.argument('appname', {type: String, required: true});
+    this.appname = _.kebabCase(this.appname);
+    this.log('appname (arg): %s', this.appname);
   },
   initializing: function() {
-    this.log('initializing');
   },
   prompting: function() {
-    this.log('prompting');
+    this.log(yosay('Welcome to ' + chalk.green('(Yet Another Angular)') + ' Generator'));
   },
   configuring: function() {
-    this.log('configuring');
   },
   writing: {
     init: function() {
-      this.log('writing');
-      this.log('\tTemplate path: %s', this.templatePath());
-      this.log('\tDestination path: %s', this.destinationPath());
+      this.log('Template path: %s', this.templatePath());
+      this.log('Destination path: %s', this.destinationPath());
     },
     gulpFile: function() {},
     packageJson: function() {},
@@ -29,7 +32,7 @@ module.exports = generators.Base.extend({
     bower: function() {
       // Creating JSON file from object literal
       var bowerJson = {
-        name: 'my-app',
+        name: this.appname, 
         license: 'MIT',
         dependencies: {}
       };
@@ -38,12 +41,11 @@ module.exports = generators.Base.extend({
       this.fs.writeJSON('bower.json', bowerJson);
     },
     appStaticFiles: function() {
-      this.log('\twriting app static files');
       // For log only
       var source = this.templatePath('_favicon.ico');
       var destination = this.destinationPath('_favicon.ico');
-      this.log('\tsource: %s', source);
-      this.log('\tdestination: %s', destination);
+      this.log('source: %s', source);
+      this.log('destination: %s', destination);
       // Copy file. No need to specify templatePath and destinationPath for copy function
       this.copy('_favicon.ico', 'src/favicon.ico');
       this.directory('styles', 'src/styles');
@@ -54,19 +56,16 @@ module.exports = generators.Base.extend({
       this.fs.copyTpl(
         this.templatePath('_index.html'),
         this.destinationPath('src/index.html'), {
-          appname: 'My Cool App',
-          ngapp: 'myapp'
+          appname: _.startCase(this.appname),
+          ngapp: this.appname
         }
       );
     }
   },
   conflicts: function() {
-    this.log('conflicts');
   },
   install: function() {
-    this.log('install');
   },
   end: function() {
-    console.log(yosay('this is the end'));
   }
 });
