@@ -1,25 +1,31 @@
+'use strict';
+
 var generators = require('yeoman-generator');
 
-var MyBase = generators.Base.extend({
-  helper: function() {
-    this.log('won\'t be called automatically');
-  }
-});
-
-module.exports = MyBase.extend({
-  constructor: function() {
-    // Calling the super constructor is important so our generator is correctly set up
-    generators.Base.apply(this, arguments);
-
-    // Next, add your custom code
-    this.option('coffee'); // This method adds support for a `--coffee` flag
-  },
-  initializing: {
-    method3: function() {
-      this.helper();
+module.exports = generators.Base.extend({
+    constructor: function(){
+        generators.Base.apply(this, arguments);
+        this.log('constructor');
+    },
+    initializing: function(){
+      this.log('initializing');
+    },
+    prompting: function(){
+      this.log('prompting');
+    },
+    configuring: function(){
+      this.log('configuring');
+    },
+    writing: function(){
+      this.log('writing');
+    },
+    conflicts: function(){
+      this.log('conflicts');
+    },
+    install: function(){
+      this.log('install');
+    },
+    end: function(){
+      this.log('end');
     }
-  },
-  method1: function(){
-    this.log('method1');
-  }
 });
