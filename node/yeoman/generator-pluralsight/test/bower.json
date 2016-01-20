@@ -1,0 +1,8 @@
+{
+  "name": "my-app",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "~1.4.6",
+    "lodash": "~3.0.1"
+  }
+}
