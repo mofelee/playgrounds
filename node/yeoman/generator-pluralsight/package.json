@@ -1,10 +1,10 @@
 {
-  "name": "generator-yang",
+  "name": "generator-pluralsight",
   "version": "1.0.0",
   "description": "",
   "files": [
     "generators/app",
-    "generators/subgenerator1" 
+    "generators/subgenerator1"
   ],
   "author": "",
   "keywords": ["yeoman-generator"],
