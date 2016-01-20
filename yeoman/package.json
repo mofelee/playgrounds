@@ -1,0 +1,14 @@
+{
+  "name": "generator-yang",
+  "version": "1.0.0",
+  "description": "",
+  "files": [
+    "generators/app",
+    "generators/router"
+  ],
+  "author": "",
+  "keywords": ["yeoman-generator"],
+  "dependencies": {
+    "yeoman-generator": "^0.22.4"
+  }
+}
