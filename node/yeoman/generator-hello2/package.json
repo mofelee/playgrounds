@@ -1,34 +1,25 @@
 {
   "name": "generator-hello2",
-  "version": "0.0.0",
-  "description": "Yeoman generator",
-  "license": "MIT",
-  "main": "app/index.js",
-  "repository": "wmgh/generator-hello2",
-  "author": {
-    "name": "",
-    "email": "",
-    "url": "https://github.com/wmgh"
-  },
-  "engines": {
-    "node": ">=0.10.0"
-  },
+  "version": "0.1.0",
+  "description": "",
   "scripts": {
     "test": "mocha"
   },
   "files": [
-    "app"
+    "generators/app"
   ],
   "keywords": [
     "yeoman-generator"
   ],
   "dependencies": {
-    "yeoman-generator": "^0.18.0",
+    "yeoman-generator": "^0.20.2",
     "chalk": "^0.5.0",
     "yosay": "^0.3.0"
   },
   "devDependencies": {
-    "mocha": "*"
+    "mocha": "*",
+    "yeoman-assert": "^2.1.1",
+    "yeoman-test": "^1.0.0"
   },
   "peerDependencies": {
     "yo": ">=1.0.0"

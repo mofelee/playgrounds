@@ -1,6 +1,5 @@
 var generators = require('yeoman-generator');
 
-
 var MyBase = generators.Base.extend({
   helper: function() {
     this.log('won\'t be called automatically');
